@@ -7,13 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domian", "Domian\Domian.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{0CFF3A19-565D-4F1F-BBDF-E6D5819EBCB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{1B48F09A-1D0D-48D7-BA9A-EB77B6CDB746}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{92076AEF-B8D0-4CCB-880E-4ED2AC68FE55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{45A710FD-4318-432A-AE18-D2D29DF66813}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{98F7A5A4-41D5-48C1-988E-FE41AA569060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
