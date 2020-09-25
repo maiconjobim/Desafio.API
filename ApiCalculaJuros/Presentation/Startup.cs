@@ -36,6 +36,7 @@ namespace Presentation
             services.AddAuthentication(
             CertificateAuthenticationDefaults.AuthenticationScheme)
                 .AddCertificate();
+            services.AddTransient<IShowMeTheCodeRepository,ShowMeTheCodeRepository>();
             services.AddHttpClient<ICalculaJurosRepository,CalculaJurosRepository>(
                 client => {
                         client.BaseAddress = new Uri("http://apitaxa/");

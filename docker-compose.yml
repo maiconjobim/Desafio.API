@@ -10,7 +10,7 @@ services:
       context: ./ApiTaxa
       dockerfile: Dockerfile
     ports:
-      - "3000:80"
+      - "3001:80"
 
   presentation:
     image: presentation
